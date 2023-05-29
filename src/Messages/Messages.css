@@ -1,0 +1,32 @@
+body {
+	scroll-behavior: smooth;
+}
+.chat {
+	overflow: scroll;
+	padding: 10px;
+	margin: 10px;
+	height: 400px;
+}
+
+.their-mes {
+	float: left;
+	background-color: rgb(219, 222, 225);
+	color: #333;
+}
+
+.my-mes {
+	float: right;
+	background-color: rgb(79, 169, 248);
+	color: white;
+}
+
+.their-mes,
+.my-mes {
+	clear: both;
+	border-radius: 10px;
+	padding: 10px;
+}
+
+.row {
+	margin-bottom: 20px;
+}
